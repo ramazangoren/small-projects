@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="p-1.css">
+    <title> glas </title>
+  </head>
+  <body>
+
+   <div class="container">
+
+     <ul class="thumb">
+       <li onmouseover="changeimg('im1.jpeg')"> <img src="im1.jpeg"></li>
+       <li onmouseover="changeimg('img2.png')"> <img src="img2.png"></li>
+       <li onmouseover="changeimg('img3.png')"> <img src="img3.png"></li>
+     </ul>
+
+     <div class="imgBox">
+
+       <h2>nime air max</h2>
+       <img src="im1.jpeg" class="x">
+
+       <ul class="size">
+         <span >size</span>
+         <li>7</li>
+         <li>8</li>
+         <li>9</li>
+         <li>7.8</li>
+       </ul>
+
+       <a href="#" class="btn"> add to  cart </a>
+
+
+     </div>
+
+   </div>
+
+   <script>
+
+   function changeimg(anything){
+     document.guerySelector('.x').src = anything;
+   }
+
+   </script>
+
+<!-- <script src="p-1.js" charset="utf-8"></script> -->
+  </body>
+</html>
